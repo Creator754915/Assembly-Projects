@@ -5,7 +5,6 @@
 ```asm
 mov eax, 8
 mov ebx, name
-mov ecx, length
-mov edx, 1
+mov ecx, 0777
 int 0x80
 ```
